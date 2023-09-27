@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="20.391" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\PC\Desktop\Resources\workspace\liveproject1\liveproject1\target\test-classes;C:\Users\PC\Desktop\Resources\workspace\liveproject1\liveproject1\target\classes;C:\Users\PC\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\PC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\PC\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\PC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\PC\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\PC\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\PC\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\PC\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\PC\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\PC\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\PC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\PC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\PC\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\PC\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\PC\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\PC\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\PC\Desktop\Resources\jdk-11.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\PC\AppData\Local\Temp\surefire16309563559491747308\surefirebooter14026482070266509729.jar C:\Users\PC\AppData\Local\Temp\surefire16309563559491747308 2023-09-27T17-29-28_879-jvmRun1 surefire17705822130055078814tmp surefire_07233539032143336680tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\PC\Desktop\Resources\workspace\liveproject1\liveproject1\target\test-classes;C:\Users\PC\Desktop\Resources\workspace\liveproject1\liveproject1\target\classes;C:\Users\PC\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\PC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\PC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\PC\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\PC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\PC\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\PC\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\PC\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\PC\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\PC\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\PC\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\PC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\PC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\PC\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\PC\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\PC\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\PC\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\PC"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.home" value="C:\Users\PC\Desktop\Resources\jdk-11.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\PC\Desktop\Resources\workspace\liveproject1\liveproject1"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\PC\AppData\Local\Temp\surefire16309563559491747308\surefirebooter14026482070266509729.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.2+9"/>
+    <property name="user.name" value="PC"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\PC\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\PC\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="user.dir" value="C:\Users\PC\Desktop\Resources\workspace\liveproject1\liveproject1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\PC\Desktop\Resources\jdk-11.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Eclipse Adoptium/jdk-17.0.8.101-hotspot/bin/server;C:/Program Files/Eclipse Adoptium/jdk-17.0.8.101-hotspot/bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin;C:\Users\PC\Desktop\Resources\jdk-11.0.2\bin;C:\Users\PC\Desktop\Resources\apache-maven-3.8.6\bin;C:\Program Files\dotnet\;C:\Windows;C:\Windows\system32;C:\Program Files\Eclipse Adoptium\jdk-17.0.8.101-hotspot\bin;C:\Users\PC\Desktop\Resources\jdk-11.0.2\bin;C:\Users\PC\Desktop\Resources\apache-maven-3.8.6\bin;C:\Program Files\dotnet\;C:\Windows;C:\Windows\system32;;%Windows%;&quot;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\PC\AppData\Roaming\npm;C:\Users\PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows;C:\Windows\system32;;C:\Users\PC\eclipse\java-2022-06\eclipse;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.2+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="addRemoveItem" classname="uk.co.automationtesting.AddRemoveItemBasketTest" time="6.365">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at uk.co.automationtesting.AddRemoveItemBasketTest.addRemoveItem(AddRemoveItemBasketTest.java:31)
+</failure>
+    <system-out><![CDATA[Enter
+]]></system-out>
+    <system-err><![CDATA[SSttaarrttiinngg  CChhrormoeDmreiDvreirv 117.0.5938.92 (67649b10b92bb182fba357831ef7dd6a1baa5648-refs/branch-heads/5938_62@{#e14}) on port 20144
+Only locra l1 17c.o0n.ne5c9t3i8o.n9s2  a(r6e7 allowed.
+6P4l9eba1s0eb 9s2ebeb 1ht8t2ps://chromedriver.chrfba357831ef7dd6a1baa5648-refs/branch-hoemadisu/m5.9o3r8g_/6s2e@c{u#r1i4t}y)- coonn spiodrerations for suggestions on kte e3p5i16n4g
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Sep 27, 2023 5:29:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Sep 27, 2023 5:29:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

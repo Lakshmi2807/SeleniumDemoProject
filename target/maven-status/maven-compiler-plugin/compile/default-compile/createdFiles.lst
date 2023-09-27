@@ -1,0 +1,15 @@
+pageObjects\ShopContentPanel.class
+base\OpenGoogle.class
+pageObjects\OrderFormPayment.class
+base\Hooks.class
+pageObjects\ShoppingCart.class
+pageObjects\OrderFormDelivery.class
+pageObjects\OrderFormShippingMethod.class
+resources\Listeners.class
+pageObjects\OrderFormPersInfo.class
+base\BasePage.class
+pageObjects\ShopProductPage.class
+uk\co\automationtesting\App.class
+pageObjects\ShopHomepage.class
+base\WebDriverInstance.class
+pageObjects\Homepage.class
